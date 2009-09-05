@@ -375,7 +375,6 @@
 		0F2FEF9D0E1FC30E00DE4D41 /* bundle_loader_plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bundle_loader_plugin.h; path = plugins/bundle_loader/bundle_loader_plugin.h; sourceTree = "<group>"; };
 		0F2FEFB60E1FC5A800DE4D41 /* SystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SystemVersion.h; path = utils/SystemVersion.h; sourceTree = "<group>"; };
 		0F2FEFB70E1FC5A800DE4D41 /* SystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SystemVersion.m; path = utils/SystemVersion.m; sourceTree = "<group>"; };
-		0F2FF0520E1FD15000DE4D41 /* python-tiger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "python-tiger-Info.plist"; sourceTree = "<group>"; };
 		0F30611F0D83C5830084F2CA /* AquaChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AquaChat.h; path = "fe-aqua/AquaChat.h"; sourceTree = "<group>"; };
 		0F3062310D847D040084F2CA /* glibintl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glibintl.h; sourceTree = "<group>"; };
 		0F3062560D8495A20084F2CA /* be */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = be; path = localization/be.lproj/xchat.strings; sourceTree = "<group>"; };
@@ -2276,7 +2275,6 @@
 				0F3062530D84958E0084F2CA /* xchat.strings */,
 				2D8DA8F50F8E6B2400DA0BC2 /* xchataqua.strings */,
 				0F2FEF2C0E1FAB1500DE4D41 /* python-leopard-Info.plist */,
-				0F2FF0520E1FD15000DE4D41 /* python-tiger-Info.plist */,
 				0F8F06D80E1FDA8500359159 /* perl-leopard-Info.plist */,
 				0F8F08120E1FE00800359159 /* tcl-Info.plist */,
 				0FDE6C820E2704F00010E0D9 /* TBD.rtf */,
