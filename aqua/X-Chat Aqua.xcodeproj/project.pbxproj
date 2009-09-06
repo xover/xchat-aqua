@@ -67,7 +67,6 @@
 		0F8EA6890CFB300B001AE9AE /* SGApplication.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F8EA65D0CFB300B001AE9AE /* SGApplication.mm */; };
 		0F8EA68A0CFB300B001AE9AE /* SGArray.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F8EA65F0CFB300B001AE9AE /* SGArray.mm */; };
 		0F8EA68B0CFB300B001AE9AE /* SGBoxView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F8EA6610CFB300B001AE9AE /* SGBoxView.mm */; };
-		0F8EA68C0CFB300B001AE9AE /* SGDebug.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F8EA6630CFB300B001AE9AE /* SGDebug.mm */; };
 		0F8EA68D0CFB300B001AE9AE /* SGFileDescriptor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F8EA6650CFB300B001AE9AE /* SGFileDescriptor.mm */; };
 		0F8EA68E0CFB300B001AE9AE /* SGFileSelection.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F8EA6670CFB300B001AE9AE /* SGFileSelection.mm */; };
 		0F8EA68F0CFB300B001AE9AE /* SGFileUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F8EA6690CFB300B001AE9AE /* SGFileUtil.mm */; };
@@ -568,8 +567,6 @@
 		0F8EA65F0CFB300B001AE9AE /* SGArray.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SGArray.mm; path = "fe-aqua/SGArray.mm"; sourceTree = "<group>"; };
 		0F8EA6600CFB300B001AE9AE /* SGBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGBoxView.h; path = "fe-aqua/SGBoxView.h"; sourceTree = "<group>"; };
 		0F8EA6610CFB300B001AE9AE /* SGBoxView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SGBoxView.mm; path = "fe-aqua/SGBoxView.mm"; sourceTree = "<group>"; };
-		0F8EA6620CFB300B001AE9AE /* SGDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGDebug.h; path = "fe-aqua/SGDebug.h"; sourceTree = "<group>"; };
-		0F8EA6630CFB300B001AE9AE /* SGDebug.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SGDebug.mm; path = "fe-aqua/SGDebug.mm"; sourceTree = "<group>"; };
 		0F8EA6640CFB300B001AE9AE /* SGFileDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGFileDescriptor.h; path = "fe-aqua/SGFileDescriptor.h"; sourceTree = "<group>"; };
 		0F8EA6650CFB300B001AE9AE /* SGFileDescriptor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SGFileDescriptor.mm; path = "fe-aqua/SGFileDescriptor.mm"; sourceTree = "<group>"; };
 		0F8EA6660CFB300B001AE9AE /* SGFileSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGFileSelection.h; path = "fe-aqua/SGFileSelection.h"; sourceTree = "<group>"; };
@@ -2067,8 +2064,6 @@
 				0F8EA65F0CFB300B001AE9AE /* SGArray.mm */,
 				0F8EA6600CFB300B001AE9AE /* SGBoxView.h */,
 				0F8EA6610CFB300B001AE9AE /* SGBoxView.mm */,
-				0F8EA6620CFB300B001AE9AE /* SGDebug.h */,
-				0F8EA6630CFB300B001AE9AE /* SGDebug.mm */,
 				0F8EA6640CFB300B001AE9AE /* SGFileDescriptor.h */,
 				0F8EA6650CFB300B001AE9AE /* SGFileDescriptor.mm */,
 				0F8EA6660CFB300B001AE9AE /* SGFileSelection.h */,
@@ -2815,7 +2810,6 @@
 				0F8EA6890CFB300B001AE9AE /* SGApplication.mm in Sources */,
 				0F8EA68A0CFB300B001AE9AE /* SGArray.mm in Sources */,
 				0F8EA68B0CFB300B001AE9AE /* SGBoxView.mm in Sources */,
-				0F8EA68C0CFB300B001AE9AE /* SGDebug.mm in Sources */,
 				0F8EA68D0CFB300B001AE9AE /* SGFileDescriptor.mm in Sources */,
 				0F8EA68E0CFB300B001AE9AE /* SGFileSelection.mm in Sources */,
 				0F8EA68F0CFB300B001AE9AE /* SGFileUtil.mm in Sources */,
