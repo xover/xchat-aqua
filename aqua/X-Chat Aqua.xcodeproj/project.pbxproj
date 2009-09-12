@@ -263,6 +263,15 @@
 		2DEA2F4B0F8673BF00D6DC0D /* DccSend.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DEA2F330F8673BF00D6DC0D /* DccSend.xib */; };
 		3B279F26105C09BD007867CD /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3B279F1D105C09AF007867CD /* Growl.framework */; };
 		3B279F2E105C09D6007867CD /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B279F1D105C09AF007867CD /* Growl.framework */; };
+		3B279F40105C0B17007867CD /* SRRemoveShortcut.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE651053E86100CEE5A5 /* SRRemoveShortcut.tif */; };
+		3B279F41105C0B17007867CD /* SRRemoveShortcutPressed.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE661053E86100CEE5A5 /* SRRemoveShortcutPressed.tif */; };
+		3B279F42105C0B17007867CD /* SRRemoveShortcutRollover.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE671053E86100CEE5A5 /* SRRemoveShortcutRollover.tif */; };
+		3B279F43105C0B17007867CD /* SRSnapback.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE681053E86100CEE5A5 /* SRSnapback.tiff */; };
+		3B279F4D105C0B82007867CD /* SRRemoveShortcut.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE651053E86100CEE5A5 /* SRRemoveShortcut.tif */; };
+		3B279F4E105C0B82007867CD /* SRRemoveShortcutPressed.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE661053E86100CEE5A5 /* SRRemoveShortcutPressed.tif */; };
+		3B279F4F105C0B82007867CD /* SRRemoveShortcutRollover.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE671053E86100CEE5A5 /* SRRemoveShortcutRollover.tif */; };
+		3B279F50105C0B82007867CD /* SRSnapback.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE681053E86100CEE5A5 /* SRSnapback.tiff */; };
+		3B279F6C105C0C78007867CD /* InterfaceBuilderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE5E0220F4557A2000E0F91 /* InterfaceBuilderKit.framework */; };
 		3B98AE871053E86100CEE5A5 /* ShortcutRecorder.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE5A1053E86000CEE5A5 /* ShortcutRecorder.strings */; };
 		3B98AE881053E86100CEE5A5 /* SR_LeopardFramework-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE5F1053E86100CEE5A5 /* SR_LeopardFramework-Info.plist */; };
 		3B98AE891053E86100CEE5A5 /* SR_LeopardView.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE601053E86100CEE5A5 /* SR_LeopardView.classdescription */; };
@@ -297,9 +306,7 @@
 		3B98AFA01053EEC500CEE5A5 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B98AEA91053E91800CEE5A5 /* ShortcutRecorder.framework */; };
 		3B98AFA21053EED000CEE5A5 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B98AFA11053EED000CEE5A5 /* Carbon.framework */; };
 		3B98AFA61053EED800CEE5A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC8F4860DEEE3EE00504F31 /* Cocoa.framework */; };
-		3B98AFA71053EF0B00CEE5A5 /* InterfaceBuilderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE5E0220F4557A2000E0F91 /* InterfaceBuilderKit.framework */; };
 		3B98AFB81053F00200CEE5A5 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B98AEA91053E91800CEE5A5 /* ShortcutRecorder.framework */; };
-		3B98AFCC1053F1BD00CEE5A5 /* InterfaceBuilderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE5E0220F4557A2000E0F91 /* InterfaceBuilderKit.framework */; };
 		3B98AFDD1053F2A900CEE5A5 /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3B98AEA91053E91800CEE5A5 /* ShortcutRecorder.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		B0D937EE0FFB0D1D009370B5 /* libintl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D937EC0FFB0D1D009370B5 /* libintl.a */; };
@@ -1807,7 +1814,6 @@
 			files = (
 				3B98AF7A1053EB8600CEE5A5 /* Carbon.framework in Frameworks */,
 				3B98AEBF1053EB7B00CEE5A5 /* Cocoa.framework in Frameworks */,
-				3B98AFCC1053F1BD00CEE5A5 /* InterfaceBuilderKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1818,7 +1824,7 @@
 				3B98AFA01053EEC500CEE5A5 /* ShortcutRecorder.framework in Frameworks */,
 				3B98AFA21053EED000CEE5A5 /* Carbon.framework in Frameworks */,
 				3B98AFA61053EED800CEE5A5 /* Cocoa.framework in Frameworks */,
-				3B98AFA71053EF0B00CEE5A5 /* InterfaceBuilderKit.framework in Frameworks */,
+				3B279F6C105C0C78007867CD /* InterfaceBuilderKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2823,6 +2829,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B279F4D105C0B82007867CD /* SRRemoveShortcut.tif in Resources */,
+				3B279F4E105C0B82007867CD /* SRRemoveShortcutPressed.tif in Resources */,
+				3B279F4F105C0B82007867CD /* SRRemoveShortcutRollover.tif in Resources */,
+				3B279F50105C0B82007867CD /* SRSnapback.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2841,6 +2851,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B279F40105C0B17007867CD /* SRRemoveShortcut.tif in Resources */,
+				3B279F41105C0B17007867CD /* SRRemoveShortcutPressed.tif in Resources */,
+				3B279F42105C0B17007867CD /* SRRemoveShortcutRollover.tif in Resources */,
+				3B279F43105C0B17007867CD /* SRSnapback.tiff in Resources */,
 				0F8EA7430CFB6B7A001AE9AE /* 0_off.tiff in Resources */,
 				0F8EA7440CFB6B7A001AE9AE /* 1_off_high_fg.tiff in Resources */,
 				0F8EA7450CFB6B7A001AE9AE /* 2_on_high_fg.tiff in Resources */,
@@ -4706,7 +4720,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "ShortcutRecorder/Framework/SR_LeopardFramework-Info.plist";
-				INSTALL_PATH = "@loader_path/../Frameworks";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
