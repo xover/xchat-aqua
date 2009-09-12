@@ -36,8 +36,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0F0BF9B40CFE2CE900B71E4D /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0BF9B30CFE2CE800B71E4D /* Growl.framework */; };
-		0F0BFA530CFE443000B71E4D /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0BF9B30CFE2CE800B71E4D /* Growl.framework */; };
 		0F2FEF340E1FAB9100DE4D41 /* python.c in Sources */ = {isa = PBXBuildFile; fileRef = 0FC8F3E80DEEDA0C00504F31 /* python.c */; };
 		0F2FEF430E1FAC3200DE4D41 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC8F3F50DEEDAB300504F31 /* Python.framework */; };
 		0F2FEF440E1FAC3700DE4D41 /* libglib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC8F4020DEEE00000504F31 /* libglib.a */; };
@@ -250,6 +248,8 @@
 		2DEA2F490F8673BF00D6DC0D /* DccChat.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DEA2F2F0F8673BF00D6DC0D /* DccChat.xib */; };
 		2DEA2F4A0F8673BF00D6DC0D /* DccRecv.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DEA2F310F8673BF00D6DC0D /* DccRecv.xib */; };
 		2DEA2F4B0F8673BF00D6DC0D /* DccSend.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DEA2F330F8673BF00D6DC0D /* DccSend.xib */; };
+		3BAA0BE5105BD6B800904598 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAA0BE4105BD6B800904598 /* Growl.framework */; };
+		3BAA0BE8105BD6C500904598 /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAA0BE4105BD6B800904598 /* Growl.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		B0D937EE0FFB0D1D009370B5 /* libintl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D937EC0FFB0D1D009370B5 /* libintl.a */; };
 		B0D937F10FFB0D34009370B5 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D937EF0FFB0D34009370B5 /* libcrypto.dylib */; };
@@ -352,8 +352,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				3BAA0BE8105BD6C500904598 /* Growl.framework in Copy Frameworks */,
 				B0E85A820FFFB3120064D049 /* Sparkle.framework in Copy Frameworks */,
-				0F0BFA530CFE443000B71E4D /* Growl.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,7 +361,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0F0BF9B30CFE2CE800B71E4D /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = "fe-aqua/Growl.framework"; sourceTree = "<group>"; };
 		0F2FEF2B0E1FAB1500DE4D41 /* python-leopard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "python-leopard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2FEF2C0E1FAB1500DE4D41 /* python-leopard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "python-leopard-Info.plist"; sourceTree = "<group>"; };
 		0F2FEF840E1FB5AE00DE4D41 /* bundle_loader_plugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = bundle_loader_plugin.mm; path = plugins/bundle_loader/bundle_loader_plugin.mm; sourceTree = "<group>"; };
@@ -1633,6 +1632,7 @@
 		2DEA2F600F8673ED00D6DC0D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "fe-aqua/ko.lproj/UrlGrabber.xib"; sourceTree = "<group>"; };
 		2DEA2F610F8673ED00D6DC0D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "fe-aqua/ko.lproj/UserCommands.xib"; sourceTree = "<group>"; };
 		3B98AFA11053EED000CEE5A5 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		3BAA0BE4105BD6B800904598 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* X-Chat Aqua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "X-Chat Aqua.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07C7AB20F4395E200E11B58 /* BuildNumber.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BuildNumber.xcconfig; sourceTree = "<group>"; };
 		B07C7AD60F4398FC00E11B58 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
@@ -1688,12 +1688,12 @@
 				0FC8F4400DEEE0E400504F31 /* libglib.a in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				0F8EA70B0CFB384A001AE9AE /* Carbon.framework in Frameworks */,
-				0F0BF9B40CFE2CE900B71E4D /* Growl.framework in Frameworks */,
 				B0D937EE0FFB0D1D009370B5 /* libintl.a in Frameworks */,
 				B0D937F10FFB0D34009370B5 /* libcrypto.dylib in Frameworks */,
 				B0D937F20FFB0D34009370B5 /* libssl.dylib in Frameworks */,
 				B0D938370FFB1A08009370B5 /* libiconv.dylib in Frameworks */,
 				B0E85A7F0FFFB3040064D049 /* Sparkle.framework in Frameworks */,
+				3BAA0BE5105BD6B800904598 /* Growl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2176,6 +2176,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3BAA0BE4105BD6B800904598 /* Growl.framework */,
 				B0E85A7E0FFFB3040064D049 /* Sparkle.framework */,
 				B0D938360FFB1A08009370B5 /* libiconv.dylib */,
 				B0D937EF0FFB0D34009370B5 /* libcrypto.dylib */,
@@ -2185,7 +2186,6 @@
 				0FC8F3F50DEEDAB300504F31 /* Python.framework */,
 				0FC8F4860DEEE3EE00504F31 /* Cocoa.framework */,
 				0FC8F6DA0DEEF50100504F31 /* AppKit.framework */,
-				0F0BF9B30CFE2CE800B71E4D /* Growl.framework */,
 				0F8EA70A0CFB384A001AE9AE /* Carbon.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
