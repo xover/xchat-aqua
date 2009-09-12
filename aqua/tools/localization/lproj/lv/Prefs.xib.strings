@@ -281,6 +281,9 @@
 /* Class = "NSButtonCell"; title = "Jaunas sadaļas izlec priekšpusē"; ObjectID = "487"; */
 "487.title" = "Jaunas sadaļas izlec priekšpusē";
 
+/* Class = "NSTextFieldCell"; title = "Switch tabs with:"; ObjectID = "488"; */
+"488.title" = "Switch tabs with:";
+
 /* Class = "NSButtonCell"; title = "Aktivizēt sarunu iegrāmatošanu"; ObjectID = "491"; */
 "491.title" = "Aktivizēt sarunu iegrāmatošanu";
 
