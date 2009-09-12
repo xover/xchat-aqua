@@ -68,6 +68,7 @@ extern "C" {
 #import "PluginList.h"
 #import "MenuMaker.h"
 #import "ServerList.h"
+#import "SRCommon.h"
 #import "AutoAwayController.h"
 
 extern struct text_event te[];
@@ -411,6 +412,17 @@ EventInfo text_event_info[NUM_XP];
         struct session *sess = (struct session *) list->data;
 		[sess->gui->cw prefsChanged];
     }
+    
+	// Tab key shortcuts
+//  NSInteger left = prefs.tab_left_key;
+  NSInteger left = 123;
+	[prev_window_menu setKeyEquivalent:SRStringForKeyCode(left)];
+	[prev_window_menu setKeyEquivalentModifierMask:prefs.tab_left_modifiers];
+
+//  NSInteger right = prefs.tab_right_key;
+  NSInteger right = 124;
+	[next_window_menu setKeyEquivalent:SRStringForKeyCode(right)];
+	[next_window_menu setKeyEquivalentModifierMask:prefs.tab_right_modifiers];
 	
     if (prefs.identd)
         identd_start ();
