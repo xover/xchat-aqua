@@ -281,9 +281,6 @@
 /* Class = "NSButtonCell"; title = "새 탭을 앞에 보이기"; ObjectID = "487"; */
 "487.title" = "새 탭을 앞에 보이기";
 
-/* Class = "NSTextFieldCell"; title = "탭 이동 단축:"; ObjectID = "488"; */
-"488.title" = "탭 이동 단축:";
-
 /* Class = "NSButtonCell"; title = "대화 내용을 기록합니다"; ObjectID = "491"; */
 "491.title" = "대화 내용을 기록합니다";
 

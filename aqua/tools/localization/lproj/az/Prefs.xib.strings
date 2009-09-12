@@ -281,9 +281,6 @@
 /* Class = "NSButtonCell"; title = "Yeni səkmələri qabağa gətir"; ObjectID = "487"; */
 "487.title" = "Yeni səkmələri qabağa gətir";
 
-/* Class = "NSTextFieldCell"; title = "Switch tabs with:"; ObjectID = "488"; */
-"488.title" = "Switch tabs with:";
-
 /* Class = "NSButtonCell"; title = "Fəallaşdır /"; ObjectID = "491"; */
 "491.title" = "Fəallaşdır /";
 

@@ -281,9 +281,6 @@
 /* Class = "NSButtonCell"; title = "Pop new tabs to front"; ObjectID = "487"; */
 "487.title" = "Pop new tabs to front";
 
-/* Class = "NSTextFieldCell"; title = "Switch tabs with:"; ObjectID = "488"; */
-"488.title" = "Switch tabs with:";
-
 /* Class = "NSButtonCell"; title = "Slå på logging av samtaler til disk"; ObjectID = "491"; */
 "491.title" = "Slå på logging av samtaler til disk";
 

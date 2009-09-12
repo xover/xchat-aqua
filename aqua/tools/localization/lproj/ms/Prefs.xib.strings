@@ -281,9 +281,6 @@
 /* Class = "NSButtonCell"; title = "Buka tab baru dihadapan"; ObjectID = "487"; */
 "487.title" = "Buka tab baru dihadapan";
 
-/* Class = "NSTextFieldCell"; title = "Switch tabs with:"; ObjectID = "488"; */
-"488.title" = "Switch tabs with:";
-
 /* Class = "NSButtonCell"; title = "Papar operasi fail"; ObjectID = "491"; */
 "491.title" = "Papar operasi fail";
 

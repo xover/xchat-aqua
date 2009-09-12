@@ -3986,7 +3986,6 @@
 				HEADER_SEARCH_PATHS = (
 					/System/Library/Frameworks/Python.framework/Versions/Current/Headers,
 					"fe-aqua/Growl.framework/Versions/A/Headers",
-					"fe-aqua/ShortcutRecorder/ShortcutRecorder/Source",
 					"fe-aqua/",
 					.,
 				);
@@ -4015,7 +4014,6 @@
 				HEADER_SEARCH_PATHS = (
 					/System/Library/Frameworks/Python.framework/Versions/Current/Headers,
 					"fe-aqua/Growl.framework/Versions/A/Headers",
-					"fe-aqua/ShortcutRecorder/ShortcutRecorder/Source",
 					"fe-aqua/",
 					.,
 				);
@@ -4067,7 +4065,6 @@
 				HEADER_SEARCH_PATHS = (
 					"/System/Library/Perl/5.8.8/darwin-thread-multi-2level/CORE/",
 					"fe-aqua/Growl.framework/Versions/A/Headers",
-					"fe-aqua/ShortcutRecorder/ShortcutRecorder/Source",
 					"fe-aqua/",
 					.,
 				);
@@ -4101,7 +4098,6 @@
 				HEADER_SEARCH_PATHS = (
 					"/System/Library/Perl/5.8.8/darwin-thread-multi-2level/CORE/",
 					"fe-aqua/Growl.framework/Versions/A/Headers",
-					"fe-aqua/ShortcutRecorder/ShortcutRecorder/Source",
 					"fe-aqua/",
 					.,
 				);
@@ -4328,7 +4324,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "X-Chat Aqua_Prefix.pch";
-				IBC_PLUGINS = $BUILT_PRODUCTS_DIR/ShortcutRecorder.Framework/Versions/A/Resources/ShortcutRecorder.ibplugin;
+				IBC_PLUGINS = "";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
