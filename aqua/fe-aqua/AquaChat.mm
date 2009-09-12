@@ -414,10 +414,14 @@ EventInfo text_event_info[NUM_XP];
     }
     
 	// Tab key shortcuts
-	[prev_window_menu setKeyEquivalent:SRStringForKeyCode(prefs.tab_left_key)];
+//  NSInteger left = prefs.tab_left_key;
+  NSInteger left = 123;
+	[prev_window_menu setKeyEquivalent:SRStringForKeyCode(left)];
 	[prev_window_menu setKeyEquivalentModifierMask:prefs.tab_left_modifiers];
 
-	[next_window_menu setKeyEquivalent:SRStringForKeyCode(prefs.tab_right_key)];
+//  NSInteger right = prefs.tab_right_key;
+  NSInteger right = 124;
+	[next_window_menu setKeyEquivalent:SRStringForKeyCode(right)];
 	[next_window_menu setKeyEquivalentModifierMask:prefs.tab_right_modifiers];
 	
     if (prefs.identd)
