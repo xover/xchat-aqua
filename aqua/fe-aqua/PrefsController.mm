@@ -21,6 +21,7 @@
 #import "PrefsController.h"
 #import "TabOrWindowView.h"
 #import "ChatWindow.h"
+#import "SRRecorderCell.h"
 
 extern "C" {
 #include "../common/xchat.h"
@@ -184,6 +185,12 @@ static NSArray *root_items;
         }
     }
 
+	KeyCombo left_combo = { prefs.tab_left_modifiers, prefs.tab_left_key };
+	[tab_left_sr setKeyCombo:left_combo];
+
+	KeyCombo right_combo = { prefs.tab_right_modifiers, prefs.tab_right_key };
+	[tab_right_sr setKeyCombo:right_combo];
+	
     ColorPalette *palette = [[AquaChat sharedAquaChat] getPalette];
 
 	if ([palette nColors] != (sizeof(colors)/sizeof(colors[0])))
@@ -217,6 +224,14 @@ static NSArray *root_items;
 				break;
         }
     }
+
+	KeyCombo left_combo = [tab_left_sr keyCombo];
+	prefs.tab_left_modifiers = left_combo.flags;
+	prefs.tab_left_key = left_combo.code;
+
+	KeyCombo right_combo = [tab_right_sr keyCombo];
+	prefs.tab_right_modifiers = right_combo.flags;
+	prefs.tab_right_key = right_combo.code;
 
     ColorPalette *palette = [[[ColorPalette alloc] init] autorelease];
     for (int i = 0; i < [palette nColors]; i ++)
