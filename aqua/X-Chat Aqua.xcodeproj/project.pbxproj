@@ -261,13 +261,11 @@
 		2DEA2F490F8673BF00D6DC0D /* DccChat.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DEA2F2F0F8673BF00D6DC0D /* DccChat.xib */; };
 		2DEA2F4A0F8673BF00D6DC0D /* DccRecv.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DEA2F310F8673BF00D6DC0D /* DccRecv.xib */; };
 		2DEA2F4B0F8673BF00D6DC0D /* DccSend.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DEA2F330F8673BF00D6DC0D /* DccSend.xib */; };
+		3B279F26105C09BD007867CD /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3B279F1D105C09AF007867CD /* Growl.framework */; };
+		3B279F2E105C09D6007867CD /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B279F1D105C09AF007867CD /* Growl.framework */; };
 		3B98AE871053E86100CEE5A5 /* ShortcutRecorder.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE5A1053E86000CEE5A5 /* ShortcutRecorder.strings */; };
 		3B98AE881053E86100CEE5A5 /* SR_LeopardFramework-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE5F1053E86100CEE5A5 /* SR_LeopardFramework-Info.plist */; };
 		3B98AE891053E86100CEE5A5 /* SR_LeopardView.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE601053E86100CEE5A5 /* SR_LeopardView.classdescription */; };
-		3B98AE8B1053E86100CEE5A5 /* SRRemoveShortcut.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE651053E86100CEE5A5 /* SRRemoveShortcut.tif */; };
-		3B98AE8C1053E86100CEE5A5 /* SRRemoveShortcutPressed.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE661053E86100CEE5A5 /* SRRemoveShortcutPressed.tif */; };
-		3B98AE8D1053E86100CEE5A5 /* SRRemoveShortcutRollover.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE671053E86100CEE5A5 /* SRRemoveShortcutRollover.tif */; };
-		3B98AE8E1053E86100CEE5A5 /* SRSnapback.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE681053E86100CEE5A5 /* SRSnapback.tiff */; };
 		3B98AE8F1053E86100CEE5A5 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE691053E86100CEE5A5 /* LICENSE.txt */; };
 		3B98AE901053E86100CEE5A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE6B1053E86100CEE5A5 /* InfoPlist.strings */; };
 		3B98AE911053E86100CEE5A5 /* SR_LeopardInspector.nib in Resources */ = {isa = PBXBuildFile; fileRef = 3B98AE6D1053E86100CEE5A5 /* SR_LeopardInspector.nib */; };
@@ -426,6 +424,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				3B279F26105C09BD007867CD /* Growl.framework in Copy Frameworks */,
 				3B98AFDD1053F2A900CEE5A5 /* ShortcutRecorder.framework in Copy Frameworks */,
 				B0E85A820FFFB3120064D049 /* Sparkle.framework in Copy Frameworks */,
 			);
@@ -1714,6 +1713,7 @@
 		2DEA2F5F0F8673ED00D6DC0D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "fe-aqua/ko.lproj/TabMenu.xib"; sourceTree = "<group>"; };
 		2DEA2F600F8673ED00D6DC0D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "fe-aqua/ko.lproj/UrlGrabber.xib"; sourceTree = "<group>"; };
 		2DEA2F610F8673ED00D6DC0D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "fe-aqua/ko.lproj/UserCommands.xib"; sourceTree = "<group>"; };
+		3B279F1D105C09AF007867CD /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
 		3B98AE5B1053E86000CEE5A5 /* Dutch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/ShortcutRecorder.strings; sourceTree = "<group>"; };
 		3B98AE5C1053E86000CEE5A5 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/ShortcutRecorder.strings; sourceTree = "<group>"; };
 		3B98AE5E1053E86000CEE5A5 /* ShortcutRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortcutRecorder.h; sourceTree = "<group>"; };
@@ -1754,7 +1754,6 @@
 		3B98AF8C1053ECA800CEE5A5 /* ShortcutRecorder.ibplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortcutRecorder.ibplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B98AF8D1053ECA800CEE5A5 /* ShortcutRecorder.ibplugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShortcutRecorder.ibplugin-Info.plist"; sourceTree = "<group>"; };
 		3B98AFA11053EED000CEE5A5 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
-		3BAA0BE4105BD6B800904598 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* X-Chat Aqua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "X-Chat Aqua.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07C7AB20F4395E200E11B58 /* BuildNumber.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BuildNumber.xcconfig; sourceTree = "<group>"; };
 		B07C7AD60F4398FC00E11B58 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
@@ -1837,6 +1836,7 @@
 				B0D938370FFB1A08009370B5 /* libiconv.dylib in Frameworks */,
 				B0E85A7F0FFFB3040064D049 /* Sparkle.framework in Frameworks */,
 				3B98AFB81053F00200CEE5A5 /* ShortcutRecorder.framework in Frameworks */,
+				3B279F2E105C09D6007867CD /* Growl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2319,7 +2319,6 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3BAA0BE4105BD6B800904598 /* Growl.framework */,
 				B0E85A7E0FFFB3040064D049 /* Sparkle.framework */,
 				B0D938360FFB1A08009370B5 /* libiconv.dylib */,
 				B0D937EF0FFB0D34009370B5 /* libcrypto.dylib */,
@@ -2331,6 +2330,7 @@
 				0FC8F6DA0DEEF50100504F31 /* AppKit.framework */,
 				0F8EA70A0CFB384A001AE9AE /* Carbon.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				3B279F1D105C09AF007867CD /* Growl.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -2898,10 +2898,6 @@
 				3B98AE871053E86100CEE5A5 /* ShortcutRecorder.strings in Resources */,
 				3B98AE881053E86100CEE5A5 /* SR_LeopardFramework-Info.plist in Resources */,
 				3B98AE891053E86100CEE5A5 /* SR_LeopardView.classdescription in Resources */,
-				3B98AE8B1053E86100CEE5A5 /* SRRemoveShortcut.tif in Resources */,
-				3B98AE8C1053E86100CEE5A5 /* SRRemoveShortcutPressed.tif in Resources */,
-				3B98AE8D1053E86100CEE5A5 /* SRRemoveShortcutRollover.tif in Resources */,
-				3B98AE8E1053E86100CEE5A5 /* SRSnapback.tiff in Resources */,
 				3B98AE8F1053E86100CEE5A5 /* LICENSE.txt in Resources */,
 				3B98AE901053E86100CEE5A5 /* InfoPlist.strings in Resources */,
 				3B98AE911053E86100CEE5A5 /* SR_LeopardInspector.nib in Resources */,
