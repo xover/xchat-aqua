@@ -426,7 +426,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3BAA0BE8105BD6C500904598 /* Growl.framework in Copy Frameworks */,
 				3B98AFDD1053F2A900CEE5A5 /* ShortcutRecorder.framework in Copy Frameworks */,
 				B0E85A820FFFB3120064D049 /* Sparkle.framework in Copy Frameworks */,
 			);
@@ -1837,7 +1836,6 @@
 				B0D937F20FFB0D34009370B5 /* libssl.dylib in Frameworks */,
 				B0D938370FFB1A08009370B5 /* libiconv.dylib in Frameworks */,
 				B0E85A7F0FFFB3040064D049 /* Sparkle.framework in Frameworks */,
-				3BAA0BE5105BD6B800904598 /* Growl.framework in Frameworks */,
 				3B98AFB81053F00200CEE5A5 /* ShortcutRecorder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

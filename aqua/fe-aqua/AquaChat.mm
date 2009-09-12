@@ -31,6 +31,7 @@ extern "C" {
 #include "../common/util.h"
 #include "../common/text.h"
 #include "../common/dcc.h"
+#import <ShortcutRecorder/ShortcutRecorder.h>
 #ifdef __cplusplus
 }
 #endif
@@ -68,7 +69,6 @@ extern "C" {
 #import "PluginList.h"
 #import "MenuMaker.h"
 #import "ServerList.h"
-#import "SRCommon.h"
 #import "AutoAwayController.h"
 
 extern struct text_event te[];

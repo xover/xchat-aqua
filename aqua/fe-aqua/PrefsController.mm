@@ -21,7 +21,6 @@
 #import "PrefsController.h"
 #import "TabOrWindowView.h"
 #import "ChatWindow.h"
-#import "SRRecorderCell.h"
 
 extern "C" {
 #include "../common/xchat.h"
@@ -29,6 +28,7 @@ extern "C" {
 #include "../common/text.h"
 #undef TYPE_BOOL
 #include "../common/cfgfiles.h"
+#import <ShortcutRecorder/ShortcutRecorder.h>
 }
 
 extern char *sound_files[];
